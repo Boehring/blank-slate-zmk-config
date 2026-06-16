@@ -155,7 +155,7 @@
 &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &trans    &trans    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
 &kp LGUI    &kp LALT   &kp LCTRL   &kp LSHFT    &trans      &trans    &trans    &trans      &kp RSHFT    &kp RCTRL   &kp RALT   &kp RGUI
 &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &trans    &trans    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
-&mkp MB1    &mkp MB2  &mkp MB   &trans  &trans    &trans     &trans      &trans     &trans &trans
+&mkp MB1    &mkp MB2  &mkp MB3   &trans  &trans    &trans     &trans      &trans     &trans &trans
             >;
         };
 
