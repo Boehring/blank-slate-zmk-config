@@ -137,19 +137,19 @@
 
         mouse_layer {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans  &trans    &kp K_REDO      &kp K_PASTE     &kp K_COPY    &kp K_CUT        &kp K_UNDO
-&trans  &kp LGUI  &kp RALT  &kp LCTRL  &kp LSHFT  &trans  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
-&trans  &trans    &trans    &trans     &trans     &trans  &trans    &trans          &trans          &trans        &trans           &trans
-&trans  &trans    &trans    &trans     &trans     &trans  &mkp MB2  &mkp MB1        &mkp MB3        &trans
+&trans  &trans    &trans    &trans     &trans     &trans  &trans  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
+&trans  &kp LGUI  &kp RALT  &kp LCTRL  &kp LSHFT  &trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
+&trans  &trans    &trans    &trans     &trans     &trans  &trans  &mkp MB1        &mkp MB2        &mkp MB3      &trans           &trans
+&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans          &trans          &trans
             >;
         };
 
         fun_layer {
             bindings = <
-&kp F12  &kp F7              &kp F8     &kp F9   &kp PRINTSCREEN  &trans  &trans  &trans     &trans     &trans    &trans    &trans
-&kp F11  &kp F4              &kp F5     &kp F6   &kp SCROLLLOCK   &trans  &trans  &kp LSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&kp F10  &kp F1              &kp F2     &kp F3   &kp PAUSE_BREAK  &trans  &trans  &trans     &trans     &trans    &trans    &trans
-&trans   &kp K_CONTEXT_MENU  &kp SPACE  &kp TAB  &trans           &trans  &trans  &trans     &trans     &trans
+&kp F12  &kp F7  &kp F8  &kp F9  &kp PRINTSCREEN  &kp K_APP  &trans  &trans     &trans     &trans    &trans    &trans
+&kp F11  &kp F4  &kp F5  &kp F6  &kp SCROLLLOCK   &trans     &trans  &kp LSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
+&kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK  &trans     &trans  &trans     &trans     &trans    &trans    &trans
+&trans   &trans  &trans  &trans  &trans           &trans     &trans  &trans     &trans     &trans
             >;
         };
 
@@ -158,7 +158,7 @@
 &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &trans  &trans  &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
 &trans      &kp LGUI   &kp LALT    &kp LCTRL    &kp LSHFT   &trans  &trans  &kp RSHFT   &kp RCTRL    &kp RALT    &kp RGUI   &trans
 &kp K_UNDO  &kp K_CUT  &kp K_COPY  &kp K_PASTE  &kp K_REDO  &trans  &trans  &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
-&trans      &mkp MB1   &mkp MB2    &mkp MB3     &trans      &trans  &trans  &trans      &trans       &trans
+&trans      &trans     &trans      &trans       &trans      &trans  &trans  &trans      &trans       &trans
             >;
         };
     };
