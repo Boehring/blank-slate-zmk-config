@@ -118,20 +118,20 @@
 
         media_layer {
             bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans  &trans      &trans             &trans      &trans             &trans           &trans
-&trans  &kp LGUI  &kp RALT  &kp LCTRL  &kp LSHFT  &trans  &trans      &ext_power EP_TOG  &kp C_PREV  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT
-&trans  &trans    &trans    &trans     &trans     &trans  &trans      &out OUT_TOG       &bt BT_PRV  &bt BT_NXT         &trans           &bt BT_CLR
-&trans  &trans    &trans    &trans     &trans     &trans  &kp C_STOP  &kp C_PAUSE        &kp K_MUTE  &trans
+&trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans             &trans       &trans             &trans           &trans
+&trans  &kp LGUI  &kp RALT  &kp LCTRL  &kp LSHFT  &trans  &trans  &ext_power EP_TOG  &kp C_PREV   &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_NEXT
+&trans  &trans    &trans    &trans     &trans     &trans  &trans  &out OUT_TOG       &bt BT_PRV   &bt BT_NXT         &trans           &bt BT_CLR
+&trans  &trans    &trans    &trans     &trans     &trans  &trans  &kp C_STOP         &kp C_PAUSE  &kp K_MUTE
             >;
         };
 
         sym_layer {
             label = "Sym";
             bindings = <
-&kp LEFT_BRACKET  &kp AMPS              &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_BRACKET  &kp EQUAL  &trans  &trans     &trans     &trans    &trans    &bootloader
-&kp COLON         &kp DOLLAR            &kp PERCENT            &kp CARET             &kp PLUS           &trans     &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI  &trans
-&kp TILDE         &kp EXCL              &kp AT                 &kp HASH              &kp PIPE           &trans     &trans  &trans     &trans     &trans    &trans    &trans
-&kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS             &kp RIGHT_BRACE    &trans     &trans  &trans     &trans     &trans
+&kp LEFT_BRACKET  &kp AMPS              &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_BRACKET  &kp EQUAL  &trans  &trans     &trans     &trans    &bootloader  &trans
+&kp COLON         &kp DOLLAR            &kp PERCENT            &kp CARET             &kp PLUS           &trans     &trans  &kp RSHFT  &kp RCTRL  &kp RALT  &kp RGUI     &trans
+&kp TILDE         &kp EXCL              &kp AT                 &kp HASH              &kp PIPE           &trans     &trans  &trans     &trans     &trans    &trans       &trans
+&kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE       &kp MINUS          &trans     &trans  &trans     &trans     &trans
             >;
         };
 
