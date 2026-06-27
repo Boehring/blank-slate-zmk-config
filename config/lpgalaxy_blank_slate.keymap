@@ -92,7 +92,7 @@
 &kp ESC  &kp Q       &kp W       &kp E        &kp R        &kp T      &kp Y  &kp U        &kp I        &kp O       &kp P          &kp BACKSPACE
 &kp TAB  &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G      &kp H  &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMI  &kp QUOT
 &shifty  &kp Z       &kp X       &kp C        &kp V        &kp B      &kp N  &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp RET
-&mo 7    &mo 5       &mo 3       &mo 1        &kp SPACE    &kp ENTER  &mo 2  &mo 4        &mo 6        &mo 7
+&lt 7 LGUI  &lt 5 LALT  &lt 3 LCTRL  &lt 1 LSHFT  &kp SPACE  &kp ENTER  &lt 2 RSHFT  &lt 4 RCTRL  &lt 6 RALT  &lt 7 RGUI
             >;
         };
 
