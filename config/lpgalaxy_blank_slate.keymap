@@ -23,6 +23,7 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 
 &lt { quick_tap_ms = <200>; };
+&sk { release-after-ms = <1000>; quick-release; };
 
 / {
     chosen { zmk,physical-layout = &layout_ortho_4x12_2x2u; };
@@ -81,6 +82,16 @@
             require-prior-idle-ms = <150>;
             bindings = <&kp>, <&kp>;
         };
+
+        lt_sk: layer_tap_sticky {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LAYER_TAP_STICKY";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+            bindings = <&mo>, <&sk>;
+        };
     };
 
     keymap {
@@ -92,7 +103,7 @@
 &kp ESC  &kp Q       &kp W       &kp E        &kp R        &kp T      &kp Y  &kp U        &kp I        &kp O       &kp P          &kp BACKSPACE
 &kp TAB  &hm LGUI A  &hm LALT S  &hm LCTRL D  &hm LSHFT F  &kp G      &kp H  &hm RSHFT J  &hm RCTRL K  &hm RALT L  &hm RGUI SEMI  &kp QUOT
 &shifty  &kp Z       &kp X       &kp C        &kp V        &kp B      &kp N  &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp RET
-&lt 7 LGUI  &lt 5 LALT  &lt 3 LCTRL  &lt 1 LSHFT  &kp SPACE  &kp ENTER  &lt 2 RSHFT  &lt 4 RCTRL  &lt 6 RALT  &lt 7 RGUI
+&lt_sk 7 LGUI  &lt_sk 5 LALT  &lt_sk 3 LCTRL  &lt_sk 1 LSHFT  &kp SPACE  &kp ENTER  &lt_sk 2 RSHFT  &lt_sk 4 RCTRL  &lt_sk 6 RALT  &lt_sk 7 RGUI
             >;
         };
 
