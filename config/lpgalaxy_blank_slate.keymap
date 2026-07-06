@@ -107,7 +107,7 @@
 &kp ESC        &kp Q          &kp W           &kp E           &kp R        &kp T      &kp Y           &kp U           &kp I          &kp O          &kp P          &kp BACKSPACE
 &kp TAB        &hm LGUI A     &hm LALT S      &hm LCTRL D     &hm LSHFT F  &kp G      &kp H           &hm RSHFT J     &hm RCTRL K    &hm RALT L     &hm RGUI SEMI  &kp SINGLE_QUOTE
 &shifty        &kp Z          &kp X           &kp C           &kp V        &kp B      &kp N           &kp M           &kp COMMA      &kp DOT        &kp FSLH       &kp RET
-&lt_sk 7 LGUI  &lt_sk 5 LALT  &lt_sk 3 LCTRL  &lt_sk 2 LSHFT  &kp SPACE    &kp ENTER  &lt_sk 3 RSHFT  &lt_sk 4 RCTRL  &lt_sk 6 RALT  &lt_sk 7 RGUI
+&lt_sk 7 LGUI  &lt_sk 5 LALT  &lt_sk 3 LCTRL  &lt_sk 1 LSHFT  &kp SPACE    &kp ENTER  &lt_sk 2 RSHFT  &lt_sk 4 RCTRL  &lt_sk 6 RALT  &lt_sk 7 RGUI
             >;
         };
 
