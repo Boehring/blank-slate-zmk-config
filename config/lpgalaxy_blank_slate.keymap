@@ -116,7 +116,7 @@
             bindings = <
 &trans  &trans    &trans    &trans     &trans      &trans  &trans  &trans          &trans        &trans          &trans     &trans
 &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHIFT  &trans  &trans  &kp DOWN_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp RIGHT  &trans
-&trans  &trans    &trans    &trans     &trans      &trans  &trans  &kp INSERT      &kp PG_DN     &kp PAGE_DOWN   &kp HOME   &kp END
+&trans  &trans    &trans    &trans     &trans      &trans  &trans  &kp PG_DN       &kp PG_UP     &kp INS         &kp HOME   &kp END
 &trans  &trans    &trans    &trans     &trans      &trans  &trans  &trans          &trans        &trans
             >;
         };
